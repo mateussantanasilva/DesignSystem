@@ -28,5 +28,12 @@ const config = {
   docs: {
     autodocs: "tag",
   },
+  viteFinal: (config, { configType }) => {
+    if (configType === "PRODUCTION") {
+      config.base = '/DesignSystem' // change base url to production - repository name
+    }
+
+    return config
+  }
 };
 export default config;
