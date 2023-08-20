@@ -1,4 +1,4 @@
-export * from './colors' // use : import { colors } from '@ignite-ui/tokens'
+export * from './colors' // use : import { colors } from '@ignite-ui-ds/tokens'
 
 export * from './space'
 export * from './radii'
