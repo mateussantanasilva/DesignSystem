@@ -1,5 +1,11 @@
 # ignite-ui-ds/eslint-config
 
+## 4.0.0
+
+### Major Changes
+
+- Added Tooltip and Toast components with their documentations
+
 ## 3.0.0
 
 ### Major Changes
