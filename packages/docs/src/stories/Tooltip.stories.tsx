@@ -7,7 +7,7 @@ export default {
   component: Tooltip,
   args: {
     // content
-    children: <Button children={'Hover'} size={'sm'} />, // trigger
+    children: <Button size={'sm'}>Hover</Button>, // trigger
     content: '26 de Outubro - Disponível'
   },
   decorators: [
